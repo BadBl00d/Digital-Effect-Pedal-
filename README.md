@@ -10,7 +10,19 @@ This project focuses on the development of a multi-effects pedal for electric gu
 
 ## Hardware Overview
 - **Capacitive Sensor**: Detects foot proximity to control effects in real time.
+
+<div align="center">
+    <img src="./pics/1.png" alt="Operation of the capacitive sensor" width="300">
+    <p><em>Figure 1: Operation of the capacitive sensor.</em></p>
+</div>
+
 - **STM32F303-K8**: The microcontroller that manages signal processing and control.
+
+<div align="center">
+    <img src="./pics/2.png" alt="Aspect of the conditionner and STM module" width="300">
+    <p><em>Figure 2: Aspect of the conditionner and STM module.</em></p>
+</div>
+
 - **Effect Selector**: A rotary knob to switch between effects.
 - **Parameter Adjuster**: A second knob to fine-tune effect parameters.
 - **Connectors**: Standard 6.5mm audio jacks for input/output and a USB connector for power and programming.
@@ -19,10 +31,29 @@ This project focuses on the development of a multi-effects pedal for electric gu
 ## Software
 The software is written in C and runs on the STM32 platform, leveraging the HAL library for hardware interactions. The effects are implemented using signal processing techniques such as the Fast Fourier Transform (FFT) and digital filters.
 
+
+<div align="center">
+    <img src="./pics/3.png" alt="Test of the signal loopback on the ADC/DAC. Output signal in yellow" width="300">
+    <p><em>Figure 3: Test of the signal loopback on the ADC/DAC. Output signal in yellow.</em></p>
+</div>
+
 ### Supported Effects
 - **Tremolo**: Modulates the volume of the input signal at a user-defined rate.
+
+<div align="center">
+    <img src="./pics/5.png" alt="Test of the tremolo signal" width="300">
+    <p><em>Figure 4: Test of the tremolo signal.</em></p>
+</div>
+
 - **Fuzz/Distortion**: Adds harmonic distortion to the signal for a richer, more aggressive tone.
+
+<div align="center">
+    <img src="./pics/4.png" alt="Test of the distortion signal" width="300">
+    <p><em>Figure 5: Test of the distortion signal.</em></p>
+</div>
+
 - **Overdrive**: Currently under development, providing a smoother form of distortion.
+- **Wah** : Modulates the tone of an audio signal by sweeping through a range of frequencies. 
   
 ### Future Improvements
 - **Effect Variety**: Additional effects can be implemented by updating the software.
