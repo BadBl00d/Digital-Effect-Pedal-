@@ -51,6 +51,3 @@ The software is written in C and runs on the STM32 platform, leveraging the HAL 
 - Inspiration from classic analog pedals such as wah-wah, fuzz, and tremolo.
 - Use of STM32F303-K8 microcontroller for audio processing.
 - 3D design tools: Inventor and PrusaSlicer for case design and manufacturing.
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
