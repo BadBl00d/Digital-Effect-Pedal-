@@ -51,3 +51,6 @@ The software is written in C and runs on the STM32 platform, leveraging the HAL 
 - Inspiration from classic analog pedals such as wah-wah, fuzz, and tremolo.
 - Use of STM32F303-K8 microcontroller for audio processing.
 - 3D design tools: Inventor and PrusaSlicer for case design and manufacturing.
+
+## Possibilies of improvement 
+- Modulate the code to make it cleaner. 
