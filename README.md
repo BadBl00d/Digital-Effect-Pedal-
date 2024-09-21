@@ -1,5 +1,9 @@
 # Guitar Effects Pedal - Capacitive Sensor Project
 
+<div align="center">
+    <img src="./pics/8.png" alt="finished product" width="300">
+</div>
+
 This project focuses on the development of a multi-effects pedal for electric guitars. The pedal integrates a capacitive sensor to manipulate audio effects in real time based on the proximity of the user’s foot to a capacitive plate. This is built using the STM32 microcontroller and includes various iconic guitar effects such as tremolo, fuzz, and overdrive.
 
 ## Features
@@ -82,6 +86,12 @@ The software is written in C and runs on the STM32 platform, leveraging the HAL 
 - Inspiration from classic analog pedals such as wah-wah, fuzz, and tremolo.
 - Use of STM32F303-K8 microcontroller for audio processing.
 - 3D design tools: Inventor and PrusaSlicer for case design and manufacturing.
+
+<div align="center">
+    <img src="./pics/7.png" alt="Operation of the capacitive sensor" width="300">
+    <p><em>Figure 6: PrusaSlicer's view of the 3D model.</em></p>
+</div>
+
 
 ## Possibilies of improvement 
 - Modulate the code to make it cleaner. 
