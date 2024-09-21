@@ -7,8 +7,7 @@
 This project focuses on the development of a multi-effects pedal for electric guitars. The pedal integrates a capacitive sensor to manipulate audio effects in real time based on the proximity of the user’s foot to a capacitive plate. This is built using the STM32 microcontroller and includes various iconic guitar effects such as tremolo, fuzz, and overdrive.
 
 
-**The following explanation is only a summarized version of the project. For more details, feel free to consult the report (in French), which explains the operation of each subcomponent in more detail.
-**
+**The following explanation is only a summarized version of the project. For more details, feel free to consult the report (in French), which explains the operation of each subcomponent in more detail.**
 
 ## Features
 - **Capacitive Sensor**: The pedal uses a capacitive plate to adjust effect parameters without physical contact, offering a unique and dynamic user interface.
